@@ -1,0 +1,59 @@
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+form h1, form h4 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+form input[type="text"],
+form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:hover,
+form input[type="date"]:hover,
+form input[type="text"]:focus,
+form input[type="date"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #357ab8;
+}
+
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+
+    form h1, form h4 {
+        font-size: 1.2rem;
+    }
+}
